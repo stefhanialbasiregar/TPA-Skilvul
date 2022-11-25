@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F2DEBA;
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+h1{
+    color: #0E5E6F;
+    text-align: center;
+    padding: 15px;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: #3A8891;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input{
+    outline: none;
+    border: #FFEFD6;
+    padding: 20px;
+    background: #FFEFD6;
+    margin-left: 100px;
+    height: 50px;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-20%, -20%);
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid #0E5E6F;
+    background: #0E5E6F;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: #0E5E6F;
+    background: #F2DEBA;
+}
+
+.wrapper .fill{
+    margin-left: 40px;
+}
+
+footer{
+    color: #0E5E6F;
+    font-size: small;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
