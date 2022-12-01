@@ -13,7 +13,7 @@ const Blog = () => {
             <p>Meet me, Stefhani Alba, a 5th semester student who is trying to understand web 
                 development - frontend. Get to know about me
             </p>
-            <BlogList blogs={blogs} title="Stefhani's Blog" />
+            <a href="https://sites.google.com/mhs.unsyiah.ac.id/cv-stefhani-alba-siregar/home"><BlogList blogs={blogs} /></a>
             
        </div>
     );
